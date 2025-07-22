@@ -1,0 +1,209 @@
+/* Start main Rulez */
+   body{
+    background-color: #F4F4F4;
+    font-size: 16px;
+   }
+   h1{
+      font-size: 3.5em ;
+      font-weight: bold;
+   }
+/* End main Rulez */
+
+/* Start login */
+
+.login {
+    width:400px;
+    padding: 50px;
+    margin:100px auto ;
+    border:#008dde 2px solid;
+    background-color: #31649a;
+    border-radius: 20px;
+   
+}
+.login h4{
+    color: #888;
+}
+ .login input{
+    margin-bottom: 10px;
+ }
+
+ .login .form-control{
+    background-color: #EAEAEA;
+ }
+ .login .btn{
+    background-color: #008dde;
+ }
+/* End login */
+
+/* start Nabar */
+.navbar{
+   border-radius: 0px;
+   margin-bottom: 0px;
+}
+.dropdown {
+   background-color:#31649a;
+   margin-bottom:-7px;
+   padding-top:5px;
+   height: 50px;
+}
+.dropdown-menu{
+   background-color:#31649a;
+   width: 170px;
+   margin-top:-1px;
+   border: none;
+   border-radius: 0px;
+   padding-left: 10px;
+}
+.droplink:hover{
+   background-color:#31649a;    
+   color:black;
+}
+/* End nav_bar */
+.show-pass{
+   position:absolute;
+   top:10px;
+   right:-30px;
+}
+.show-pass-index{
+   position:absolute;
+   top:259px;
+   right:622px;
+   font-size: 1.5rem;
+}
+.main-table{
+   box-shadow:0 3px 20px #CCC !important;
+}
+.main-table td{
+   background-color: #FFF;
+   vertical-align: middle !important;
+}
+
+.main-table tr:first-child td{
+   background-color: #333;
+   color:#FFF;
+   min-width:190px !important;
+}
+.main-table .btn{
+   padding: 3px 10px;
+}
+/* Start Dashboard Page*/
+.home-stats .stat{
+   background-color: #EEE;
+   border:1px solid #CCC;
+   padding: 20px;
+   font-size: 15px;
+   color: #FFF;
+   border-radius: 20px;
+}
+.home-stats .stat a{
+   color:#FFF;
+}
+.home-stats .stat a:hover{
+   text-decoration: none;
+}
+.home-stats .stat span{
+   display: block;
+   font-size: 60px;
+}
+.home-stats .st-member{
+   background-color: #3498db;
+}
+.home-stats .st-pinding{
+   background-color: #c0392b;
+}
+.home-stats .st-items{
+   background-color: #d35400;
+}
+.home-stats .st-Orders{
+   background-color: #8e44ad;
+}
+.latest{
+   margin-top:40px
+}
+.panel-body{
+   background-color: white;
+   padding: 10px 8px;
+   border:1px solid #CCC;
+
+}
+.panel-heading{
+   background-color: #EEE;
+   padding: 10px 8px;
+   border:1px solid #CCC;  
+}
+/* End Dashboard Page */
+
+/* Start categories page */
+.categories .card-title{
+   background-color: #d6d1d1;
+}
+.categories .cat{
+   margin-bottom: 0px;
+}
+.categories .cat h3{
+   margin-bottom:0px !important;
+}
+.categories .cat .full-view p{
+   margin:10px 0px;
+}
+.categories .cat .full-view hr{
+   margin-top:0px;
+   margin-bottom: 0px;
+}
+
+.categories .trbox {
+   border-top: solid 2px black;
+}
+.categories .trbox:first-child{
+   border-top:none;  
+}
+.cat{
+   display: flex;
+   justify-content: space-between;
+   /* align-items: center; */
+}
+.categories .Option a{
+   color:#888;
+   text-decoration: none;
+}
+.categories .Option span{
+   color:#888;
+   text-decoration: none;
+   cursor: pointer;
+}
+.categories .Option .active{
+   color:#f00;
+   font-weight: bold;
+}
+.cat h3{
+   cursor: pointer;
+}
+
+.cat h3:first-child{
+   margin-top:-10px;
+}
+
+/* End categories page */
+
+
+td{
+   padding: 5px !important;
+}
+#search{
+  border: none;   
+  outline: none;
+  box-shadow: none;
+
+}
+#search:focus{
+  border: none;
+  outline: none;
+  box-shadow: none;
+  /* position: absolute; */
+}
+table{
+   margin-top: 30px;
+}
+#archive{
+   display: none;
+}
